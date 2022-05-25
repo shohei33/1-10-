@@ -75,14 +75,15 @@ footer {
     margin-top:50px;
     display:flex;
     flex-flow:column;
-    margin-left:5%;
-    margin-right:5%;
+  }
+  
+  .step-box:last-child{
+    margin-bottom:0;
+    margin-right:auto;
   }
   
   .step-box{
     width:90%;
-    margin-bottom: 20px;
+    margin:0 auto 20px auto;
   }
-  
-  
 }
